@@ -4,7 +4,7 @@ function ThreeSecChange() {
   
 
 function imgchange12() {
-  document.getElementById('logo2').src = './image/bulbon.gif';
+  document.getElementById('logo2').src = './brown2.png';
 }
 
 function ChangeImageAndBack(){
@@ -20,9 +20,9 @@ function ThreeSecChange2(){
   setTimeout("imgchange2()",3000);
 }
 function imgchange2() {
-  document.getElementById('img13').src = './brown2.jpg';
+  document.getElementById('img13').src = './brown.jpg';
 }
 
 function imgback() {
-  document.getElementById('img13').src = './brown.jpg';
+  document.getElementById('img13').src = './brown2.png';
 }
